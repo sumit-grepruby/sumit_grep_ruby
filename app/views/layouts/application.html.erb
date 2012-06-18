@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Acalia Development | Free CSS Template | Csstemplatesmarket.com</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" , "style" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="wrap">
+ 
+      <div class="top_corner"></div>
+   
+      
+    <div id="main_container">
+    
+        <div id="header">
+            <div id="logo"><a href="/"><img src="/assets/logo.png" alt="" title="" border="0" /></a></div>
+            
+            <a href="make-a-donation.html" class="make_donation"></a>
+            
+            <div id="menu">
+                <ul>                                                                                            
+                    <li><a class="current" href="/home" title="">Home</a></li>
+                    <li><a href="/about" title="">About Company</a></li>
+                    <li><a href="#" title="">Projects</a></li>
+                    <li><a href="#" title="">Clients</a></li>
+                    <li><a href="#" title="">Testimonials</a></li>
+                    <li><a href="/contact" title="">Contact</a></li>
+                </ul>
+            </div>
+            
+        
+        </div>
+        
+            <%if params[:controller]=="home" && params[:action]=="index"%>
+        <div class="middle_banner">               
+           
+                
+        </div><!---------------------------------end of middle banner-------------------------------->
+         <%else%>
+         <div class="top_banner"></div>
+        <%end%>
+        <div class=".center_content_pages">
+          <%=yield%>
+        </div>
+        
+        <div class="footer">
+        	<div class="copyright">&copy; 2012 Grep Ruby. All Rights Reserved</div>
+        
+        	<div class="footer_links">
+                <a class="current" href="/home" title="">Home</a>
+                <a href="/about" title="">About Company</a>
+                <a href="#" title="">Projects</a>
+                <a href="#" title="">Clients</a>
+                <a href="#" title="">Testimonials</a>
+                <a href="/contact" title="">Contact</a>            
+            </div>
+        </div>
+      
+      
+    
+    </div>
+</div>
+</body>
+
+</html>

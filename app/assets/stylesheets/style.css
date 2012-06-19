@@ -3,7 +3,7 @@ background:url(/assets/bg.gif) repeat;
 margin:0px;
 padding:0px;
 font-size:100%;
-font-family:Arial, Helvetica, sans-serif;
+font-family:"Open Sans",georgia,sans-serif;
 color:#000;
 }
 p{
@@ -13,7 +13,7 @@ padding:0px;
 margin:0px;
 }
 h2{
-padding:0px 0 10px 0; margin:0px; color:#405EA0; font-size:20px; font-weight:normal;
+padding:0px 0 10px 0; margin:0px; color:#405EA0; font-size:20px; font-weight:bold;
 }
 .clear{
 clear:both;
@@ -48,7 +48,7 @@ float:left;
 }
 /*----------------------menu-------------------------*/
 #menu{
-width:600px;
+width:540px;
 float:right;
 padding:40px 0 0 0;
 }
@@ -79,7 +79,7 @@ background:url(/assets/business-banner.png) no-repeat center;
 ul, li{
 padding:0px;
 margin:0px;
-list-style:none;
+list-style:disc inside none;
 }
 /** ----------------------------------------------------- **/
 #featured_border { position: relative; border: none; padding:0px; height:280px; margin: 0px; }
@@ -149,6 +149,7 @@ float:left;
 font-size:20px;
 padding:20px 0 0px 10px; margin:0px;
 color:#405EA0;
+font-weight:bold;
 }
 .home_subtitle{
 width:190px;
@@ -168,9 +169,9 @@ padding:2px;margin:0 10px 0 0; border:1px #dcdcdc solid;
 
 
 .left_content{
-width:660px;
+width:300px;
 float:left;
-padding:0;
+padding-left:10px;
 }
 .left_block{
 width:295px;
@@ -208,9 +209,9 @@ clear:both;
 padding:10px 15px 0 15px;
 }
 .right_block{
-width:280px;
-float:right;
-padding:20px 20px 10px 0;
+width:600px;
+float:left;
+padding:20px 20px 10px 30px;
 }
 img.pic{
 border:3px #22496a solid;

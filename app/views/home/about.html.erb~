@@ -1,70 +1,22 @@
-        <div class="left_content">
-        
-        	<div class="left_block">
-            	<h2>About Us</h2>
-                <img src="assets/pic.jpg" alt="" title="" border="0" class="pic" />
-            	<p>
-GrepRuby is a privately owned firm with extensive experience in Information Technology. Our team has more than a decade experience in various aspects of IT Services including Software Development, Process Management, Human Resources etc. Strong conviction in providing quality, guaranteed and cost effective IT Services to customers has prompted in inception of GrepRuby Pvt. Ltd. </br></br>
-GrepRuby strives to make employees feel a part of the organization. Creative Programs for employees in terms of Continuous Education, Support for Higher Studies etc., not only keeps them abreast in technology but also provide Satisfaction, Confidence and Long-term Opportunities.                </p>            
-            </div>
-            
-            <div class="left_block">
-            	<h2>Why we are different </h2>
-                <p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<br /><br />
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<div class="left_content">
+	<div class="left_block">
+    	<h2>About Us</h2>
+    	<p>GrepRuby is a privately owned firm with extensive experience in Information Technology. Our team has more than a decade experience in
+ various aspects of IT Services including Software Development, Process Management, Human Resources etc. Strong conviction in providing quality, guaranteed and cost effective IT Services to customers has prompted in inception of GrepRuby Pvt. Ltd. </br></br>
+GrepRuby strives to make employees feel a part of the organization. Creative Programs for employees in terms of Continuous Education, Support for Higher Studies etc., not only keeps them abreast in technology but also provide Satisfaction, Confidence and Long-term Opportunities.</p>
+    </div>
 
-                </p>
-            </div>
-            
-            
-            <div class="block_wide">
-                <h2>Our imagination </h2>
-                
-                <p>
-To be the most preferred IT staffing solutions partner in all markets we serve.
-The ultimate measures of our leadership and success depends upon the results we deliver to clients through superior service, unsurpassed quality, while operating with integrity and highest ethical standards.
-                </p>
+</div>
 
-            
-            
-            </div>
-        
-        
-        </div>
-        
-        
-            <div class="right_block">
-            	<h2>Latest news</h2>
-                
-                <div class="home_news">
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit adipisicing elit , consectetur adipisicing elit adipisicing elit</a>
-                <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                </div>
 
-                
-                
-            </div>
-            
-            
-			<div class="wide_content">
-            	<h2>Terms &amp; Conditions</h2>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>            
-            </div> 
-            
-   
-        
-        <div class="clear"></div>
-        </div>
-        
+    <div class="right_block">
+          <div><img src="/assets/about-us.jpg" alt="" title="" border="0" class="pic" /></div>
+    </div>
+    
+
+    
+
+
+<div class="clear"></div>
+</div>
+

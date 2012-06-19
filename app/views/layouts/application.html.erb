@@ -9,25 +9,17 @@
 </head>
 <body>
 <div id="wrap">
- 
-      <div class="top_corner"></div>
-   
-      
     <div id="main_container">
-    
         <div id="header">
             <div id="logo"><a href="/"><img src="/assets/logo.png" alt="" title="" border="0" /></a></div>
-            
-            <a href="make-a-donation.html" class="make_donation"></a>
-            
+           <a href="make-a-donation.html" class="make_donation"></a>
             <div id="menu">
                 <ul>                                                                                            
-                    <li><a class="current" href="/home" title="">Home</a></li>
-                    <li><a href="/about" title="">About Company</a></li>
-                    <li><a href="#" title="">Projects</a></li>
-                    <li><a href="#" title="">Clients</a></li>
-                    <li><a href="#" title="">Testimonials</a></li>
-                    <li><a href="/contact" title="">Contact</a></li>
+                    <li><a class="<%=is_current('index')%>" href="/home" title="">Home</a></li>
+                    <li><a class="<%=is_current('about')%>" href="/about" title="">About Company</a></li>
+                    <li><a class="<%=is_current('projects')%>" href="#" title="">Projects</a></li>
+                    <li><a class="<%=is_current('team')%>" href="/team" title="">Team</a></li>
+                    <li><a class="<%=is_current('contact')%>" href="/contact" title="">Contact</a></li>
                 </ul>
             </div>
             
@@ -36,11 +28,9 @@
         
             <%if params[:controller]=="home" && params[:action]=="index"%>
         <div class="middle_banner">               
-           
-                
         </div><!---------------------------------end of middle banner-------------------------------->
          <%else%>
-         <div class="top_banner"></div>
+         <div class=""></div>
         <%end%>
         <div class=".center_content_pages">
           <%=yield%>
@@ -53,8 +43,7 @@
                 <a class="current" href="/home" title="">Home</a>
                 <a href="/about" title="">About Company</a>
                 <a href="#" title="">Projects</a>
-                <a href="#" title="">Clients</a>
-                <a href="#" title="">Testimonials</a>
+                <a href="#" title="">Team</a>
                 <a href="/contact" title="">Contact</a>            
             </div>
         </div>

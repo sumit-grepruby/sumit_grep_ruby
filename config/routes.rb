@@ -3,6 +3,8 @@ Fbuntu::Application.routes.draw do
   match 'home' => 'home#index'
   match 'about' => 'home#about'
   match 'contact' => 'home#contact'
+  match 'team' => 'home#team'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

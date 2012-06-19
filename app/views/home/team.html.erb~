@@ -1,0 +1,72 @@
+
+    <div class="right_block">
+    	<h2>Team </h2>
+        <p>
+        <div style="float:left">
+          <div><img src="/assets/sk.jpg" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Sachin Kumar</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+          Sachin Kumar has more then 5 years experience in Web development using Ruby on Rails, Ajax, Jquery and related technologies. He post graduate from Devi Ahilya University, and he like to spend time with friends.
+        </div>
+        <div style="clear:both;"></div>
+        </p><br /><br />
+        <p>
+        <div style="float:left">
+          <div><img src="/assets/mk.png" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Dilip Chouhan</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+         Dilip Chouhan has more then 5 years experience in Web development using Ruby on Rails, Ajax, Javascript and related technologies. He is ready to help you to build the most up to date web applications for your business and works closely with the client to solve individual needs. He has an advanced degree in computer science from DAVV University, and enjoys spending time with his wife and one lovely kid. 
+        </div>
+        <div style="clear:both;"></div>
+        </p><br /><br />  
+        <p>
+        <div style="float:left">
+          <div><img src="/assets/user.png" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Gaurav Soni</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+         Rails Engineer. He is working as Team Lead</div>
+        <div style="clear:both;"></div>
+        </p><br /><br />
+        <p>
+        <div style="float:left">
+          <div><img src="/assets/user.png" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Kahna Chouhan</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+         Ruby on Rails Developer 
+        </div>
+        <div style="clear:both;"></div>
+        </p><br /><br />         
+<p>
+        <div style="float:left">
+          <div><img src="/assets/user.png" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Ashish Sharma</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+         Ruby on Rails Developer
+        </div>
+        <div style="clear:both;"></div>
+        </p><br /><br />         
+<p>
+        <div style="float:left">
+          <div><img src="/assets/user.png" alt="" title="" border="0" class="pic" width="160" height="133"/></div>
+          <div>Mayank Saraf</div>
+        </div>
+        <div style="float:left;padding-left:10px;width:420px;">
+         Ruby on Rails Developer
+        </div>
+        <div style="clear:both;"></div>
+        </p><br /><br />         
+
+    </div>
+    
+
+    
+
+
+<div class="clear"></div>
+</div>
+

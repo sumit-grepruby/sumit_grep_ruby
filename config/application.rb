@@ -39,6 +39,9 @@ module Grepruby
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
+    config.assets.initialize_on_precompile = false
+    config.assets.precompile += ['refinery/refinery.css']
+
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
 
@@ -52,6 +55,8 @@ module Grepruby
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
+
+    config.assets.paths << "#{Rails.root}/assets/fonts"
 
     # Enable the asset pipeline
     config.assets.enabled = true

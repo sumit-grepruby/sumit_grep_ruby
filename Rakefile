@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Fbuntu::Application.load_tasks
+Grepruby::Application.load_tasks

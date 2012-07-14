@@ -1,0 +1,76 @@
+// Place all the styles related to the travels controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.travel_board_info li {
+	margin: 5px 0; display: block;
+  }
+
+.travel_board_thumbnail{
+  margin-left: 12px; margin-top: -1px;}
+
+.country_region_section{
+  width: 50%; float: left; margin-right: 12px; margin-top: -24px;}
+
+.travel_boards_list{
+  }
+
+.country_list_full{
+  width: 100%;}
+
+.Add_tourist_board{
+	font-size: 15px;}
+
+.country_name{
+	display: block; margin-bottom: 30px;}
+
+.index_country_regions{
+	margin-left:35px;
+	width: 650px; }
+
+.index_country_regions a {display: inline-block; margin: 5px;}
+
+.board_list_regions a{
+	display: block; 
+	}
+
+#travel_content{
+  /*width: 320px!important;
+  height: 100px!important;*/
+}
+
+#travel_address1{
+  /*width: 320px!important;
+  height: 100px!important;*/
+}
+
+#travel_address2{
+  /*width: 320px!important;
+  height: 100px!important;*/
+}
+
+.message_field{
+  margin-left: 400px;
+  margin-top: -345px;
+}
+
+
+.dropdown-autocomplete {position: absolute; z-index: 999; background-color: #fff; border-right: 1px solid #bfbfbf; border-bottom: 1px solid #bfbfbf; border-left: 1px solid #bfbfbf; width: 278px;}
+
+.dropdown-autocomplete a {display: block; padding: 4px 8px;}
+
+.dropdown-autocomplete a:hover {background-color: #f3f3f3; color:#ccc;} 
+
+.search_travel_board{
+	position: relative;
+  float: right;
+}
+
+.search_button{cursor: pointer;}
+
+.search_travel{
+  margin-left:35px;
+	width: 800px;
+	text-align: left;
+	font-size: 15px;}
+

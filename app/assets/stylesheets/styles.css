@@ -1,0 +1,174 @@
+body {margin:0; padding:0;}
+
+/*a:hover {background: transparent !important;}*/
+
+/*Fonts*/
+
+.OpenSans {font-family: 'OpenSans'; font-weight: normal; font-style:normal; letter-spacing: 0.06em;}
+
+.OpenSansBold {font-family: 'OpenSans'; font-weight: bold; font-style:normal;}
+
+.OpenSansLight {font-family: 'OpenSansLight'; font-weight: normal; font-style:normal; letter-spacing: 0.6px;}
+
+.OpenSansLight p { color: #DDD;}
+
+.OpenSansExtrabold {font-family: 'OpenSansExtrabold'; font-weight: bold; font-style:normal;}
+
+/*Header*/
+
+.header-content {position:relative; background: none repeat scroll 0 0 #7AC143; repeat-x 0 30px;}
+
+.brand {float: left;}
+
+.navbar {float: right; margin-top: 32px; font-size: 15px; text-transform: uppercase; font-weight: 600;}
+
+/*Content*/
+
+#content {display: block; width: 100%;}
+
+
+/*Welcome*/
+
+section.topHome .container {position: relative;}
+
+.slide-content {display: block; height: 300px; width: 940px;}
+
+.slide-content h1 {padding: 30px 0 20px;}
+
+.slide-content h1 span {text-transform: uppercase; display: block; }
+
+.copy1 {font-size: 35px; margin-bottom: 10px;}
+
+.copy2 {font-size: 45px; color: #96005D;}
+
+.slide-content p {width: 420px; line-height: 1.6;}
+
+.slide1, .slide2, .slide3 {width: 940px; height: 300px;}
+
+.slide1 {background: transparent url("/assets/back.jpg") no-repeat;}
+
+.slide2 {background: transparent url("/assets/slide2.jpg") no-repeat;}
+
+.slide3 {background: transparent url("/assets/slide3.jpg") no-repeat;}
+
+.controlSlide {position: absolute; z-index: 999; bottom: 30px; left: 3px;}
+
+.controlSlide a {width: 15px; height: 15px; margin: 0 7px;}
+
+.btnContact-slide {position: absolute; z-index: 999; bottom: 30px; right: 20px; text-align: center; width: 180px;}
+
+.btnContact-slide button {text-transform: uppercase; border-color: #01770A; border-width: 0 0 10px 0; background-color: #02C114; color: #fff; font-size: 20px; padding: 15px 24px; letter-spacing: -0.2px;}
+
+.btnContact-slide button:hover {background-color: #07E016; border-color: #02C114; border-width: 0 0 7px 0;}
+
+.btnContact-slide a {font-family: Georgia, Times, serif; font-style: italic; display: block; margin-top: 8px;}
+
+.bgGray {background: transparent url("/assets/bgGray.jpg") repeat;}
+
+section.bgGray {padding: 20px 0;}
+
+.widget {background: transparent url("/assets/bgWidget.png") no-repeat; font-family: 'OpenSans';}
+
+.widget1, .widget2, .widget3 {width: 260px; height: 170px; padding: 15px 20px 20px; position: relative;}
+
+.widget1 {background: transparent url("/assets/widget1.png") no-repeat;}
+
+.widget2 {background: transparent url("/assets/widget2.png") no-repeat;}
+
+.widget h2 {color: #96005D; margin-bottom: 5px;}
+
+.widget p {font-size: 14px; line-height: 1.4; width: 220px;}
+
+a.widgetLink {position: absolute; bottom: 15px; left: 20px; font-family: Georgia, Times, serif; font-style: italic;}
+
+.smallpostTitle {font-size: 13px; display: block;}
+
+.smallpostContent {font-size: 12px;}
+
+.smallpost {padding: 10px 0; border-top: 1px solid #bfbfbf;}
+
+
+/*Post*/
+
+.postList {display: block; clear: both; overflow: hidden;}
+
+.post {display: block; padding: 5px 0; border-bottom: 1px solid #bfbfbf;}
+
+.postTitle {display: block;}
+
+.postDetails {display: block; margin-bottom: 20px;}
+
+.postContent {display: block; margin: 10px 0;}
+
+.post p {line-height: 1.5; margin-bottom: 20px;}
+
+.post img {max-width: 620px; margin-bottom: 20px;}
+
+.sideTitle {text-transform: uppercase; margin-bottom: 10px;}
+
+.sideBlock {margin-bottom: 30px;}
+
+.sideBlock ul li {margin: 7px 0;}
+
+.post .details {margin-bottom: 15px; display: block; clear: both; overflow: hidden; font-size: 13px;}
+
+.post .details .posted_at, .post .details .blog_author, .post .details .comment_count {float: left; padding-right: 15px;}
+
+/*Pages*/
+.financial-application-form{width:300px; float:left; padding:20px 20px 10px 0px; }
+
+.financial-application-form p{margin-bottom:30px; }
+
+.testimonials{width:470px; float:right; padding: 0px 75px 0 0; }
+
+.pageTop {display: block; padding: 20px 0 10px; border-bottom: 1px solid #bfbfbf; margin-bottom: 20px;}
+
+.pageTop h1 {color: #96005D; font-size: 38px; line-height: 1.3;}
+
+.pageTop h1 span {display: block; font-size: 23px; color: #494949;}
+
+.pageTop p {font-size: 14px; margin: 10px 0 0;}
+
+.pageContent {padding: 10px 0 30px; min-height: 300px;}
+
+.pageContent p {line-height: 1.5; margin-bottom: 20px;}
+
+h1#body_content_title {color: #96005D; font-size: 38px; border-bottom: 1px solid #bfbfbf; margin-bottom: 20px; padding:20px 0 10px;}
+
+.pageListing li {padding: 5px 0; display: block; font-size: 15px;}
+
+.infoListing li {clear: left; overflow: hidden; padding: 10px 0;}
+
+.infoListing strong {float: left; width: 200px; text-align: right;}
+
+.infoListing span {margin-left: 220px; display: block;}
+
+/*Forms*/
+
+label.radio {padding-left: 18px; display: block;}
+
+/*Footer*/
+
+footer {color:#efefef;}
+
+.footer-content {background: #2E3936 url("/assets/footer_bg.jpg") repeat-x; max-height: 380px; min-height: 100px; padding: 40px 0 30px;}
+
+.footer-content a {color:#efefef;}
+
+.footer-content a:hover {color:#efefef;}
+
+.span2m {float:left; margin-left: 20px; width: 190px;}
+
+ul.footer-menu li {margin-bottom: 7px;}
+
+ul.footer-menu li.header-list {font-weight: 600; font-size: 15px; margin-bottom: 12px;}
+
+ul.footer-menu a {font-weight: 200; font-family: 'OpenSansLight'; font-weight: normal; font-style:normal; font-size: 12px; letter-spacing:.4px;}
+
+.menu-div {border-right: 1px solid #000; clear: both; display: table;}
+
+.contact-section {text-align: center;}
+
+.contact-section p {font-size: 11px; letter-spacing: -0.2px; margin-bottom: 10px;}
+
+p.email {font-size: 20px; margin-bottom: 15px; display: block;}

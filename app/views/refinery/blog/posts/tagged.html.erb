@@ -1,0 +1,56 @@
+
+<!-- Content -->
+	<div id="content">
+	
+		<div class="container">
+			<div class="pageTop">
+				<h1><% content_for :title, "#{t('.posts_tagged')} '#{@tag_name.titleize}'"  %>
+</h1>
+							</div>
+			<div class="row">
+				<div class="span8">
+					<div class="postList">
+						<div class="post">
+							<div class="postTitle">
+								<h2><a href=""><% content_for :body_content_title, "#{t('.posts_tagged')} &#8220;#{@tag_name.titleize}&#8221;".html_safe -%>
+</a></h2>
+							</div>
+							<div class="postDetails">
+								<span>
+									<% content_for :body_content_left do %>
+										<% if @posts.any? %>
+											<section id="blog_posts">
+												<%= render :partial => "/refinery/blog/shared/post", :collection => @posts %>
+												<%= will_paginate @posts %>
+											</section>
+										<% else %>
+											<p><%= t('.no_blog_articles_yet') %></p>
+										<% end %>
+									<% end %>
+ 
+								</span>
+							</div>
+							<div class="postContent">
+								<%= render :partial => '/refinery/blog/shared/body_content_right' %>
+
+								<%= render :partial => "/refinery/content_page" %>
+								<% content_for :stylesheets, stylesheet_link_tag('refinery/blog/frontend') %>
+
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+				
+	</div>
+
+
+
+
+
+
+
+
+

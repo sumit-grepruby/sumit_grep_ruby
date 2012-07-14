@@ -1,0 +1,36 @@
+<!-- Content -->
+	<div id="content">
+	
+		<div class="container">
+			<div class="row">
+				<div class="span8">
+					<div class="postList">
+						<div class="post">
+							<div class="postDetails">
+								<span>
+									<%= render 'post' %> 
+								</span>
+							</div>
+							<div class="postDetails">
+								<% if Refinery::Blog::Post.comments_allowed? %>
+									<%= render 'comments'%>
+								<% end %>
+							
+								<%= render :partial => '/refinery/blog/shared/body_content_right' %>
+								<%= render :partial => "/refinery/content_page", :locals => { :remove_automatic_sections => true }  %>
+								<% content_for :stylesheets, stylesheet_link_tag('refinery/blog/frontend') %>
+								<% content_for :javascripts do %>
+									<%# enable AJAX'd post nav at your own risk until html5 history API implemented. %>
+									<%#= javascript_include_tag('refinery/blog/frontend') %>
+									<script src="http://w.sharethis.com/button/buttons.js"></script>
+									<script>stLight.options({publisher:'<%= Blog::Post::ShareThis.key %>'});</script>
+								<% end if Refinery::Blog::Post::ShareThis.enabled? %>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+	</div>

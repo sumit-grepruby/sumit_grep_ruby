@@ -1,4 +1,8 @@
 Grepruby::Application.configure do
+
+  # Refinery has set config.assets.initialize_on_precompile = false by default.
+  config.assets.initialize_on_precompile = false
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -19,6 +23,9 @@ Grepruby::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+
+  # Defaults to Rails.root.join("public/assets") 
+  config.assets.manifest = Rails.root.join("assets")
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

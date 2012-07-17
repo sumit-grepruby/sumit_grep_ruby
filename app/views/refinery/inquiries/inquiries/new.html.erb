@@ -1,0 +1,48 @@
+<div id="content">
+    <div class="container">
+        <div class="row-fluid contentTop">
+          <div class="span12">
+            <div class="pageContent">
+                <%= render :partial => "/refinery/content_page" %>
+              </div>
+              
+              <%= form_for [refinery, :inquiries, @inquiry], :html => { :class => 'form-horizontal formContact' } do |f| %>
+                    <%= render :partial => "/refinery/admin/error_messages",
+                               :locals => {
+                               :object => @inquiry,
+                               :include_object_name => true
+                             } %>
+            <div class="control-group">
+              <%= f.required_label :name, :class => 'control-label' %>
+              <div class="controls">
+                  <%= f.text_field :name, :class => 'span3', :required => 'required', :placeholder => t('name', :scope => 'activerecord.attributes.refinery/inquiries/inquiry') %>
+              </div>  
+            </div>
+            <div class="control-group">
+              <%= f.required_label :email, :class => 'control-label' %>
+              <div class="controls">
+                  <%= f.email_field :email, :class => 'span3', :placeholder => t('email', :scope => 'activerecord.attributes.refinery/inquiries/inquiry') %>
+              </div>  
+            </div>
+            <div class="control-group">
+              <%= f.label :phone, :class => 'control-label' %>
+              <div class="controls">
+                <%= f.text_field :phone, :class => 'span3', :placeholder => t('phone', :scope => 'activerecord.attributes.refinery/inquiries/inquiry') %>
+              </div>
+            </div>
+            <div class='control-group'>
+              <%= f.required_label :message, :class => 'control-label' %>
+              <div class="controls">
+                  <%= f.text_area :message, :cols => 10, :rows => 7, :required => 'required', :placeholder => t('message', :scope => 'activerecord.attributes.refinery/inquiries/inquiry'), :class => "input-xlarge"%>
+              </div>  
+            </div>
+            <div class="form-actions">
+              <%= f.submit t('.send'), :class => 'btn btn-success ' %>
+              <%= link_to t('.privacy_policy'), "/pages/privacy-policy", :class => 'btn' if Refinery::Inquiries.show_contact_privacy_link  %>
+            </div>
+                <% end %>
+          </div>
+      </div>
+    </div>
+</div>    
+

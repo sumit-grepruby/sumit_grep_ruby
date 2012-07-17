@@ -127,15 +127,17 @@ textarea {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+/*
 body {
   margin: 0;
   font-family: 'OpenSansLight'; font-weight: normal; font-style:normal; letter-spacing: 0.06em;
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   color: #333333;
   background-color: #ffffff;
 }
+*/
 a {
   color: BlanchedAlmond;
   text-decoration: none;
@@ -403,20 +405,13 @@ h6 {
 .page-header h1 {
   line-height: 1;
 }
-ul,
-ol {
-  padding: 0;
-  margin: 0 0 9px 25px;
-}
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin-bottom: 0;
 }
-ul {
-  list-style: disc;
-}
+
 ol {
   list-style: decimal;
 }

@@ -232,7 +232,7 @@ h5 {
 }
 #content {
     margin: 0 auto;
-    min-height: 800px;
+    min-height: 800px !important;
     overflow: visible;
     width: 950px;
 }

@@ -79,7 +79,7 @@ h5 {
     font-size: 14px;
 }
 #bgheader {
-    background: url("/assets/bg_header.gif") repeat-x scroll left bottom #EAEAEA;
+    background: url("/assets/bg_header.gif") repeat-x scroll left bottom #394050;
     border-bottom: 1px solid #FFFFFF;
     float: left;
     width: 100%;
@@ -113,7 +113,7 @@ h5 {
 }
 #header .nav ul li a {
     background: url("/assets/sprite.png") no-repeat scroll 0 0 transparent;
-    color: #000000;
+    color: #FFFFFF;
     float: left;
     height: 25px;
     padding-top: 66px;

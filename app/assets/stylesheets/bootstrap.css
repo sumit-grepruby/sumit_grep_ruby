@@ -160,7 +160,7 @@ a {
 }
 [class*="span"] {
   float: left;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .container,
 .navbar-fixed-top .container,
@@ -181,6 +181,7 @@ a {
 }
 .span8 {
   width: 620px;
+  padding: 10px 10px 10px 10px;
 }
 .span7 {
   width: 540px;
@@ -192,7 +193,8 @@ a {
   width: 380px;
 }
 .span4 {
-  width: 300px;
+  width: 280px;
+  margin-top: 20px;
 }
 .span3 {
   width: 220px;

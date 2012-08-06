@@ -115,7 +115,7 @@ a.widgetLink {position: absolute; bottom: 15px; left: 20px; font-family: Georgia
 .post .details .posted_at, .post .details .blog_author, .post .details .comment_count {float: left; padding-right: 15px;}
 
 /*Pages*/
-.financial-application-form{width:300px; float:left; padding:20px 20px 10px 0px; }
+.financial-application-form{width:300px; float:left; padding:70px 20px 10px 40px; }
 
 .financial-application-form p{margin-bottom:30px; }
 

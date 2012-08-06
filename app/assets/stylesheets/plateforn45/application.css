@@ -289,7 +289,7 @@ content .slogan, .slogan {
     z-index: 999;
 }
 .nivo-controlNav a {
-    background: url("/assets/bg_dots.png") no-repeat scroll 0 0 transparent;
+   /* background: url("/assets/bg_dots.png") no-repeat scroll 0 0 transparent;*/
     border: 0 none;
     display: inline-block;
     height: 27px;

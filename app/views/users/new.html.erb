@@ -1,0 +1,62 @@
+<div class="discus_blog">
+  <br> <br>
+  <div class = "discuss_form" >
+    <font size = "6px">Sign Up</font>
+    <br/> <br/>    
+    <%= form_for @user do |f| %>  
+      <table>
+        <div class="field">
+          <tr>
+            <td><%= f.label :username %></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= f.text_field :username %></td>
+            <td><% if @user.errors[:username].present? %><%= @user.errors[:username] %> <%end%></td>
+          </tr>
+        </div>
+        <div class="field">
+          <tr>
+            <td><%= f.label :email %></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= f.text_field :email %></td>
+            <td><% if @user.errors[:email].present? %> <%= @user.errors[:email] %> <% end %></td>
+          </tr>
+        </div>
+        <div class="field">
+          <tr>
+            <td><%= f.label :password %></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= f.password_field :password %></td>
+            <td><% if @user.errors[:password].present? %> <%= @user.errors[:password] %> <% end %></td>
+          </tr>
+        </div>
+        <div class="field">
+          <tr>
+            <td><%= f.label :password_confirmation %></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= f.password_field :password_confirmation %> </td> 
+            <td><% if @user.errors[:password_confirmation] .present? %> <%= @user.errors[:password_confirmation] %> <% end %></td>
+          </tr>
+        </div>
+      </table>
+      <br>
+      <div class="action">
+        <table>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= f.submit %></td>
+            <td>&nbsp&nbsp&nbsp</td>
+            <td><!--input type="button" value="Cancle" action="/posts" data-method="get"--></td>
+          </tr>
+        </table>
+      </div>    
+      <br/> <br/> <br/>
+    <% end %>  
+  </div>
+</div>

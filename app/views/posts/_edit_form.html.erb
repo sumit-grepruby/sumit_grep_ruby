@@ -1,0 +1,34 @@
+<%= form_for(@post) do |f| %>
+  <table>
+    <div class="field">
+      <tr>
+        <td><%= f.label :title %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&nbsp&nbsp&nbsp<%= f.text_field :title %></td>
+        <td><% if @post.errors[:title].present? %><%= @post.errors[:title] %><% end %></td>
+      </tr>
+    </div>
+    <div class="field">
+      <tr>
+        <td><%= f.label :content %></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>&nbsp&nbsp&nbsp<%= f.text_area :content, :style =>"width: 600px; height: 60px" %></td>
+        <td><% if @post.errors[:content].present? %><%= @post.errors[:content] %><% end %></td>
+      </tr>
+    </div>
+  </table>
+  <br>
+  <div class="actions">
+    <table>
+      <tr>
+        <td>&nbsp&nbsp&nbsp<%= f.submit %></td>
+        <td>&nbsp&nbsp&nbsp</td>
+        <td><!--input type="button" value="Cancle" action="/posts" data-method="get" --></td>
+      </tr>
+    </table>   
+  </div>
+<% end %>

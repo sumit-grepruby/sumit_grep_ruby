@@ -2,25 +2,39 @@
 <header>
   <div class="header-content">
     <div class="container">
-				
- <div id="bgheader"><!-- BEGIN: header -->
-<div id="header">
-
-	
-      <a class="logo" href="/">GrepRuby</a>
-      <div class="nav">
-	    <ul>
-	      <li <% if params[:path].blank? %>class="selected" <% end %> ><a class="home" href="/">Home</a></li>
-	      <li <% if params[:path]== "our-project" %> class="selected" <% end %> ><a class="work" href="/our-project">Work</a></li>
-		  <li <% if params[:path]== "what-we-do" %> class="selected" <% end %> ><a class="services" href="/what-we-do">What we do</a></li>
-		  <li <% if params[:path]== "our-team" %> class="selected" <% end %> ><a class="community" href="/our-team">Our team</a></li>
-		  <li <% if params[:path]== "contact-us" %> class="selected" <% end %> ><a class="contact" href="/contact-us">Contact us</a></li>
-          <!--<li><a class="blog" href="/blog">Blog</a></li>-->
-	    </ul>
-	  </div>
-	
-</div>
-</div><!-- END: header -->
+     <div id="bgheader"><!-- BEGIN: header -->
+       <div id="header">
+	      <a class="logo" href="/">GrepRuby</a>
+	      <div class="nav">
+		    <ul>
+		      <li <% if params[:path].blank? and params[:controller] != "posts" %>class="selected" <% end %> ><a class="home" href="/">Home</a></li>
+		      <li <% if params[:path]== "our-project" %> class="selected" <% end %> ><a class="work" href="/our-project">Work</a></li>
+			  <li <% if params[:path]== "what-we-do" %> class="selected" <% end %> ><a class="services" href="/what-we-do">What we do</a></li>
+			  <li <% if params[:path]== "our-team" %> class="selected" <% end %> ><a class="community" href="/our-team">Our team</a></li>
+			  <li <% if params[:path]== "contact-us" %> class="selected" <% end %> ><a class="contact" href="/contact-us">Contact us</a></li>
+	          <li <% if params[:controller] == "posts" %> class="selected" <% end %> ><a class="blog" href="/blog">Blog</a></li>
+		    </ul>
+		  </div>
+        </div>
+    </div><!-- END: header -->
 	</div>
   </div>
 </header>
+<% if["posts","users","sessions"].include?( params[:controller]) %>
+    <div class="navbar clearfix">
+    <div class="navbar-inner">
+    <div class="container">
+    <!-- Be sure to leave the brand out there if you want it shown -->
+<% if current_user %>
+  <%= link_to "Logged in as", "javascript:void(0);" ,:class=>"brand"%>
+  <%= link_to current_user.email, "javascript:void(0);" ,:class=>"brand"%>
+  <%= link_to "Log out", logout_path ,:class=>"brand"%>
+<% else %>
+  <%= link_to "Sign up", signup_path ,:class=>"brand"%>
+  <%= link_to "or", "javascript:void(0);" ,:class=>"brand"%> 
+  <%= link_to "log in", login_path ,:class=>"brand"%>
+<% end %>
+    </div>
+    </div>
+    </div>
+<%end%>

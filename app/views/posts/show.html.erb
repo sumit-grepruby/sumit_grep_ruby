@@ -1,0 +1,29 @@
+<div class="discus_blog" >
+	<br> <br>
+	<div class = "discuss_form">
+		<div id = "post">
+			<font size ="6px"><%= link_to "Discussion", posts_path %></font>
+			<br><br>
+			<font size ="5px"> <b><%= @post.title.capitalize %></b> </font>
+			<hr>
+			<div id = "discus_contant">
+				<table>
+					<tbody>
+						<tr>
+							<td valign ="top"><%= image_tag("icon3.gif") %></td>
+							<td>&nbsp&nbsp</td>
+							<td><%= @post.content.html_safe.capitalize %><br>
+								<font size="4px"><%= link_to "Edit", edit_post_path %></font>
+							</td>
+						</tr>
+					</tbody>
+				</table>				
+				<br><br>
+				<font size="5px">Answers</font>
+				<hr>
+				<!--put discuss comments here-->
+			</div>			
+		</div>
+	</div>	
+</div>
+

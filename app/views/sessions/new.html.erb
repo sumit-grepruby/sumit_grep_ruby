@@ -1,0 +1,38 @@
+<div class="discus_blog">
+  <br> <br>
+  <div class = "discuss_form">
+    <font size = "6px">Sign In</font>
+    <br/> <br/> <br/>
+    <% flash.each do |k, v| %>
+        <div class="<%= k %>"><%= v %></div>
+    <% end %>
+    <%= form_tag sessions_path do %>
+      <table>
+        <div class="field">
+          <tr>
+            <td><%= label_tag :email %></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= text_field_tag :email, params[:email] %></td>
+          </tr>
+        </div>
+        <div class="field">
+          <tr>
+            <td><%= label_tag :password %></td>
+          </tr>
+          <tr>
+            <td>&nbsp&nbsp&nbsp<%= password_field_tag :password %></td>
+          </tr>
+        </div>
+        <div class="field">
+          <tr>
+            <td><%= check_box_tag :remember_me, 1, params[:remember_me] %> <%= label_tag :remember_me %></td>
+          </tr>     
+        </div>
+      </table>
+      <br/>
+      <div class="actions">&nbsp&nbsp&nbsp<%= submit_tag "Log in" %></div>
+      <br/> <br/> <br/><br/> <br/>
+    <% end %>
+  </div>
+</div>

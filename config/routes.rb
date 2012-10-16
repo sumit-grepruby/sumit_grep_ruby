@@ -1,4 +1,14 @@
 Grepruby::Application.routes.draw do
+
+  get "logout" => "sessions#destroy", :as => "logout"
+  get "login" => "sessions#new", :as => "login"
+  get "signup" => "users#new", :as => "signup"
+  resources :users
+  resources :sessions
+
+  resources :posts
+  match "blog" => "posts#index"
+
   match 'google30aecb4f32189612' => 'welcome#google30aecb4f32189612'
   root :to => 'welcome#index'
 

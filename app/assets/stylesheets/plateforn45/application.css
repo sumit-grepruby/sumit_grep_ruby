@@ -78,6 +78,33 @@ h5 {
     color: #414549;
     font-size: 14px;
 }
+.discuss_form { 
+	margin-left: 60px;
+    margin-right: 60px;
+}
+.discus_blog {
+	background: url("/assets/bg_slider.png") repeat-x ;
+	font-family: "Times New Roman", Times, serif;
+    float: left;
+    width: 100%;
+}
+#discus_contant {
+    margin-right: 40px;
+}
+#post {
+	background: url("/assets/bg_body.gif") repeat scroll center top transparent;
+}
+#post ul li{
+    background: url("/assets/arrow.gif") no-repeat scroll 0 10px transparent;
+}
+#add_new {
+    background: url("/assets/sprite.png")no-repeat scroll 0 -755px transparent;
+	float: right;
+    text-align: right;
+	padding-top: 10px;
+    padding-bottom: 10px;    
+    	
+}
 #bgheader {
     background: url("/assets/bg_header.gif") repeat-x scroll left bottom #394050;
     border-bottom: 1px solid #FFFFFF;
@@ -236,7 +263,7 @@ h5 {
     overflow: visible;
     width: 950px;
 }
-content .slogan, .slogan {
+#content .slogan, .slogan {
     background-color: Ivory;
     float: left;
     height: 56px;
@@ -660,7 +687,7 @@ a.nivo-prevNav {
     background-position: -294px -470px;
 }
 #products .box .productlinks ul li a.link3:focus {
-    background-position: -294px -519px;
+    background-position: -294px -519px;slogan
 }
 #products .box .productlinks ul li a.link4 {
     background-position: -442px -421px;

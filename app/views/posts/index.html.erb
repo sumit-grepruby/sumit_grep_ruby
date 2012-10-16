@@ -1,0 +1,22 @@
+<div align = "center"><%= flash[:notice] %> </div>
+<div class="discus_blog" >
+  <br><br>
+  <div class = "discuss_form">
+    <div id = "post">
+      <div>
+        <font size = "6px"><u>Discussion Topics</u></font>  
+        <div id = "add_new">
+          <font size ="4px">&nbsp&nbsp Add new Discussion :&nbsp <u><%= link_to 'New Post', new_post_path, method: :get %></u> &nbsp&nbsp</font>
+        </div>
+      </div>
+      <br>
+      <ul>
+        <% if @posts && @posts.length > 0 %>
+          <% @posts.each do |post| %>
+            <li>&nbsp&nbsp&nbsp<font size = "4px" ><%= link_to post.title.html_safe.capitalize, post_path(post.id), method: :get %></font></li>
+          <% end %>
+        <% end %>
+      </ul>    
+    </div>
+  </div>
+</div>
